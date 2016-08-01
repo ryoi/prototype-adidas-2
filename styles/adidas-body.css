@@ -470,6 +470,7 @@ ul.adidas-pdp-feature-list {
     position: relative;
     line-height: 0;
     background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.1);
   }
   .adidas-pdp-visual {
     display: inline-block;
@@ -499,8 +500,7 @@ ul.adidas-pdp-feature-list {
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #ddd;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(230, 230, 230, 0.8);
     border-radius: 0 0 3px 3px;
   }
   .adidas-pdp-summary {
@@ -511,17 +511,17 @@ ul.adidas-pdp-feature-list {
     width: 320px;
     font-size: 13px;
     line-height: 22px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(230, 230, 230, 0.8);
     border-radius: 3px 0 0 3px;
     overflow-y: auto;
     overflow: visible;
   }
-  .adidas-pdp-summary .adidas-text-color-primary {
+/*  .adidas-pdp-summary .adidas-text-color-primary {
     color: #ddd;
   }
   .adidas-pdp-summary .adidas-text-color-secondary {
     color: #888;
-  }
+  }*/
   .adidas-pdp-summary .adidas-actions-cart,
   .adidas-pdp-summary .adidas-actions-secondary {
     position: absolute;
@@ -556,15 +556,15 @@ ul.adidas-pdp-feature-list {
   }
   .adidas-product-brand-line {
     padding-top: 10px;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+/*    border-bottom: 1px solid rgba(255,255,255,.1);*/
   }
   .adidas-product-name h3 {
     margin: 10px 0 5px;
     font-size: 24px;
   }
-  .adidas-product-privilege {
+/*  .adidas-product-privilege {
     border: 1px solid rgba(255,255,255,.1);
-  }
+  }*/
   .adidas-pdp-section.pdp-desc {
     width: 1200px;
     margin: 0 auto;

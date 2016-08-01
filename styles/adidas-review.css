@@ -1,0 +1,252 @@
+.adidas-pdp-section.pdp-review .adidas-pdp-section-title {
+  padding-bottom: 10px;
+}
+.adidas-pdp-section-title .btn {
+  display: inline-block;
+  font-size: 11px;
+}
+.adidas-product-review-overall {
+  padding: 0 30px;
+}
+.adidas-product-review-overall .adidas-product-rate-stars {
+  padding: 10px 0;
+}
+.adidas-product-review-overall .adidas-product-rate-stars .glyphicon {
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.adidas-product-review-overall > h5 {
+  position: relative;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.adidas-product-review-breakdown,
+.adidas-product-review-summary {
+  width: 260px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+}
+.adidas-bar {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.adidas-bar > li {
+  display: block;
+  position: relative;
+  margin-bottom: 5px;
+  text-align: left;
+  line-height: 0;
+}
+.adidas-bar li > * {
+  vertical-align: middle;
+}
+.adidas-bar > li h5 {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.adidas-bar .progress {
+  display: inline-block;
+  width: 150px;
+  height: 12px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  border-radius: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  background-color: white;
+}
+.progress .progress-bar {
+  background-color: #007feb;
+}
+.adidas-product-review-summary .adidas-bar > li {
+  margin-bottom: 8px;
+}
+.adidas-product-review-summary li h5 {
+  width: 50px;
+}
+.adidas-product-review-summary .progress {
+  height: auto;
+  overflow: visible;
+}
+.adidas-product-review-summary .progress.sub {
+  position: relative;
+  height: auto;
+  margin-left: 55px;
+  box-shadow: none;
+  border: 0;
+  background-color: transparent;
+  font-size: 9px;
+  line-height: 13px;
+}
+.adidas-product-review-summary .progress .progress-bar {
+  position: relative;
+  height: 4px;
+  background-color: #007feb;
+  overflow: visible;
+}
+.adidas-product-review-summary .progress .progress-bar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -6px;
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  border-radius: 5px;
+  background-color: #007feb;
+}
+.adidas-product-review-summary .progress.sub span:last-child {
+  position: absolute;
+  right: 0;
+}
+.adidas-pdp-customer-review-main {
+  position: relative;
+}
+.adidas-pdp-customer-reviews {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.adidas-pdp-customer-review {
+  display: block;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  text-align: left;
+}
+.adidas-pdp-customer-review .adidas-product-rate-stars .glyphicon {
+  width: 10px;
+  height: 10px;
+  font-size: 12px;
+  color: #007feb;
+}
+.adidas-pdp-customer-review-date {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 12px;
+}
+.adidas-pdp-customer-review-title {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.adidas-pdp-customer-review-content {
+  font-size: 13px;
+  line-height: 20px;
+}
+.adidas-pdp-customer-review-vote {
+  display: block;
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.adidas-pdp-customer-review-vote li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+.adidas-pdp-customer-review-vote li .glyphicon {
+  color: #007feb;
+}
+.adidas-pdp-customer-review-vote li .glyphicon:hover {
+  cursor: pointer;
+}
+.adidas-pdp-customer-review-sub {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .adidas-product-review-overall {
+    text-align: center;
+  }
+  .adidas-product-review-overall .adidas-product-rate-stars {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .adidas-product-review-overall .adidas-product-review-breakdown,
+  .adidas-product-review-overall .adidas-product-review-summary {
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+  }
+  .adidas-pdp-customer-review {
+    position: relative;
+    padding: 20px 20px 20px 300px;
+  }
+  .adidas-pdp-customer-review-sub {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+  }
+  .adidas-pdp-customer-review-sub .adidas-product-review-summary .progress .progress-bar,
+  .adidas-pdp-customer-review-sub .adidas-product-review-summary .progress .progress-bar:after {
+    background-color: #999;
+  }
+}
+@media (min-width: 992px) {
+  .adidas-pdp-section.pdp-viewed .adidas-product-list > li {
+    width: 150px;
+  }
+  .adidas-pdp-section.pdp-viewed .adidas-product-list .adidas-image {
+    width: 150px;
+    height: 180px;
+  }
+  .adidas-pdp-section.pdp-viewed .adidas-product-list .adidas-product-info {
+    height: 75px;
+  }
+  .adidas-btn {
+    margin-left: 20px;
+  }
+  .adidas-product-review-overall {
+    text-align: center;
+  }
+  .adidas-product-review-overall .adidas-product-rate-stars {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .adidas-product-review-overall .adidas-product-review-breakdown,
+  .adidas-product-review-overall .adidas-product-review-summary {
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+  }
+  .adidas-pdp-customer-reviews {
+    width: 930px;
+    margin: 0 auto;
+  }
+  .adidas-pdp-customer-review {
+    position: relative;
+    padding: 20px 20px 20px 300px;
+  }
+  .adidas-pdp-customer-review-sub {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+  }
+  .adidas-pdp-customer-review-sub .adidas-product-review-summary .progress .progress-bar,
+  .adidas-pdp-customer-review-sub .adidas-product-review-summary .progress .progress-bar:after {
+    background-color: #999;
+  }
+}

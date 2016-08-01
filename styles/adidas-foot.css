@@ -1,0 +1,135 @@
+.adidas-foot {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.adidas-foot-body {
+  position: relative;
+}
+.adidas-foot-section {
+  position: relative;
+  margin: 20px 20px 0 20px;
+  padding: 0 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.adidas-foot-section h5 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #ddd;
+  text-align: left;
+}
+.adidas-foot-section h5 .glyphicon {
+  float: left;
+  margin: 2px 5px 0 0;
+}
+.adidas-subscribe .adidas-foot-section {
+  margin-top: 40px;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+.form-control {
+  border: 0;
+}
+.input-group .btn {
+  border-color: #007feb;
+  color: white;
+  background-color: #007feb;
+}
+.input-group.btn:active {
+  color: white;
+  background-color: #006fdb;
+}
+.adidas-foot-links {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.adidas-foot-links li {
+  display: block;
+  margin: 0;
+  padding: 3px 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.adidas-foot-links li a,
+.adidas-foot-links li a:hover,
+.adidas-foot-links li a:active {
+  color: #aaa;
+  text-decoration: none;
+}
+.adidas-foot-section.social {
+  margin-top: 20px;
+  border: 0;
+}
+.adidas-foot-section.social .adidas-foot-links {
+  text-align: left;
+}
+.adidas-foot-section.social .adidas-foot-links li {
+  display: inline-block;
+  width: 30px;
+  opacity: .7;
+}
+.adidas-copyright {
+  clear: both;
+  padding: 5px 35px;
+  text-align: left;
+  font-size: 11px;
+  line-height: 18px;
+  color: #999;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .adidas-foot-body {
+    margin-top: 20px
+  }
+  .adidas-foot-section-wrapper {
+    width: 60%;
+    float: left;
+  }
+  .adidas-foot-section-wrapper.adidas-subscribe {
+    width: 40%;
+    float: right;
+    padding: 30px 20px;
+  }
+  .adidas-foot-section {
+    width: 40%;
+    float: left;
+    border-bottom: 0;
+  }
+  .adidas-subscribe .adidas-foot-section {
+    width: 100%;
+    margin: 0;
+  }
+  .adidas-subscribe .adidas-foot-section.social {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .adidas-foot-body {
+    max-width: 1000px;
+    margin: 30px auto 0;
+  }
+  .adidas-foot-section-wrapper {
+    width: 60%;
+    float: left;
+  }
+  .adidas-foot-section-wrapper.adidas-subscribe {
+    width: 40%;
+    float: right;
+    padding: 30px 20px;
+  }
+  .adidas-foot-section {
+    width: 40%;
+    float: left;
+    border-bottom: 0;
+  }
+  .adidas-subscribe .adidas-foot-section {
+    width: 100%;
+    margin: 0;
+  }
+  .adidas-subscribe .adidas-foot-section.social {
+    margin-top: 20px;
+  }
+}

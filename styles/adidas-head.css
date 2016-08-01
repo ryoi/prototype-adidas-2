@@ -1,0 +1,207 @@
+.adidas-head {
+  position: relative;
+  width: 100%;
+  height: 81px;
+  z-index: 100;
+  color: #aaa;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.adidas-topnav {
+  padding-top: 40px;
+}
+.adidas-logo {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  opacity: .8;
+}
+.adidas-logo:hover,
+.adidas-logo:active {
+  opacity: 1;
+}
+/* user nav */
+.adidas-user-nav {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 120px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.adidas-user-nav > li {
+  display: block;
+  float: right;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+.adidas-user-nav > li .glyphicon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+.adidas-user-nav > li:hover .glyphicon,
+.adidas-user-nav > li:active .glyphicon, {
+  color: white;
+  cursor: pointer;
+}
+/* store nav */
+.adidas-store-nav {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  border-top: 1px solid #444;
+  overflow: hidden;
+}
+.adidas-store-nav > li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 13px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.adidas-store-nav li:hover > span {
+  cursor: pointer;
+  color: white;
+}
+.adidas-store-nav .adidas-store-nav-sub,
+.adidas-store-nav .glyphicon {
+  display: none;
+}
+/* when sticky */
+.is-sticky .adidas-head {
+  height: 40px;
+}
+.is-sticky .adidas-store-nav {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sticky-wrapper {
+    height: 50px !important;
+  }
+  .adidas-head {
+    height: 50px;
+  }
+  .adidas-topnav {
+    padding-top: 0;
+  }
+  .adidas-logo {
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+  }
+  .adidas-user-nav {
+    top: 10px;
+    right: 10px;
+    width: 120px;
+  }
+  .is-sticky .adidas-head {
+    height: 50px;
+  }
+  .adidas-store-nav {
+    border: 0;
+  }
+  .adidas-store-nav > li {
+    line-height: 40px;
+  }
+  .is-sticky .adidas-store-nav {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .adidas-head {
+    position: fixed;
+    top: 15%;
+    left: -150px;
+    width: 200px;
+    height: auto;
+    z-index: 100;
+    border-radius: 0 3px 3px 0;
+    overflow-y: auto;   
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .adidas-head:hover {
+    left: 0;
+  }
+  .adidas-topnav {
+    padding-top: 0;
+  }
+  .adidas-logo {
+    position: absolute;
+    top: 13px;
+    left: auto;
+    right: 10px;
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+  }
+  .adidas-user-nav {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+  .adidas-user-nav > li {
+    display: block;
+    float: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+  }
+  .adidas-user-nav > li .glyphicon {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 11px;
+
+  }
+  .adidas-store-nav {
+    margin-top: 50px;
+    border: 0;
+  }
+  .adidas-store-nav > li {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .adidas-store-nav .adidas-store-nav-sub {
+    display: block;
+    margin: 5px 0 5px 10px;
+    padding: 0;
+    list-style: none;
+  }
+  .adidas-store-nav .adidas-store-nav-sub li {
+    display: block;
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .adidas-store-nav .glyphicon {
+    display: inline-block;
+  }
+}

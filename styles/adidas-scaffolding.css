@@ -1,0 +1,80 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+.adidas-transition {
+  -webkit-transition: all .07s linear;
+          transition: all .07s linear;
+}
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+.tooltip-inner {
+  padding: 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+.adidas-number {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+/*  font-style: italic;*/
+}
+.adidas-image {
+  position: relative;
+  background-color: rgba(0,0,0,.1);
+  text-align: center;
+}
+.adidas-image:after {
+  content: "image";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  margin: -10px 0 0 -30px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.adidas-color-brand-primary {
+
+}
+.adidas-text-color-primary {
+  color: #222;
+}
+.adidas-text-color-secondary {
+  color: #777;
+}
+.adidas-test-color-minor {
+  color: #999;
+}
+.adidas-btn {
+  border: 0 !important;
+  border-radius: 3px;
+  color: white;
+  background-color: #007feb;
+}
+.adidas-btn:hover,
+.adidas-btn:active {
+  color: white;
+  background-color: #006fdb;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .adidas-pdp {
+  }
+}
+@media (min-width: 992px) {
+  .adidas-pdp {
+  }
+}

@@ -1,4 +1,4 @@
-# PDP Prototype for Adidas, Plan 2!
+# PDP Prototype for Adidas, Plan B!
 
 See DEMO page [here](https://ryoi.github.io/prototype-adidas-2/). (Only supports latest Chrome and Safari.)
 

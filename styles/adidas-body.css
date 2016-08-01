@@ -491,16 +491,17 @@ ul.adidas-pdp-feature-list {
   }
   .adidas-nav-breadcrumb {
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: 30px;
+    left: 10px;
     z-index: 10;
     width: 400px;
-    margin: 0 0 0 -200px;
+    margin: 0;
     padding: 5px 20px;
     font-size: 12px;
     line-height: 18px;
-    text-align: center;
-    background-color: rgba(230, 230, 230, 0.8);
+    text-align: left;
+    /*color: #aaa;*/
+    /*background-color: rgba(0, 0, 0, 0.7);*/
     border-radius: 0 0 3px 3px;
   }
   .adidas-pdp-summary {

@@ -6,4 +6,4 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas-2/). (Only supports
 - Best view on big screen. Mobile and tablet view remains the same as first design.
 
 ## Plan A
-See plan A [here](https://github.com/ryoi/prototype-adidas).
+Back to [Plan A](https://github.com/ryoi/prototype-adidas).
